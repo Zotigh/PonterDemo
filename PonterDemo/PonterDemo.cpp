@@ -13,7 +13,7 @@ int main()
 	
 	double* ptrNum;
 	ptrNum = &number1;
-
+	cout << "ptrNum" << ptrNum << endl;
 
 	return 0;
 }
