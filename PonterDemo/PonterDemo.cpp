@@ -24,8 +24,10 @@ int main()
 	double summation = 0;
 	double subtraction = 0;
 
-	summation = math(number1, number2);
+	math(number1, number2, summation, subtraction);
+
 	cout << "Summation: " << summation << endl;
+	cout << "Subtraction: " << subtraction << endl;
 
 	return 0;
 }
