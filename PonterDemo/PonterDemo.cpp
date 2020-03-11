@@ -2,6 +2,8 @@
 //
 
 #include <iostream>
+#include "Functions.h"
+
 using namespace std;
 
 int main()
@@ -16,6 +18,12 @@ int main()
 	//cout << "ptrNum: " << ptrNum << endl;
 	////cout << "ptrNum: " << &ptrNum << endl; This is the same as the top
 	//cout << "ptrNum: " << *ptrNum << endl;
+	double number1 = 4;
+	double number2 = 6;
+	double summation = 0;
+
+	summation = math(number1, number2);
+	cout << "Summation: " << summation << endl;
 
 	return 0;
 }
