@@ -24,7 +24,7 @@ int main()
 	double summation = 0;
 	double subtraction = 0;
 
-	math(number1, number2, summation, subtraction);
+	math(number1, number2, &summation, &subtraction);
 
 	cout << "Summation: " << summation << endl;
 	cout << "Subtraction: " << subtraction << endl;
