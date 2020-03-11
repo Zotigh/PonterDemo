@@ -1,5 +1,6 @@
 // PonterDemo.cpp 
-//
+// Lance Zotigh (lzotigh@cnm.edu)
+// Demo on pointers
 
 #include <iostream>
 #include "Functions.h"
@@ -21,6 +22,7 @@ int main()
 	double number1 = 4;
 	double number2 = 6;
 	double summation = 0;
+	double subtraction = 0;
 
 	summation = math(number1, number2);
 	cout << "Summation: " << summation << endl;

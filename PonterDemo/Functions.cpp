@@ -1,6 +1,7 @@
 using namespace std;
 
-double math(double num1, double num2) 
+void math(double num1, double num2, double sum, double sub) 
 {
-	return num1 + num2;
+	sum = num1 + num2;
+	sub = num1 - num2;
 }
